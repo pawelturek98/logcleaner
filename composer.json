@@ -2,6 +2,7 @@
     "name": "pawelt/logcleaner",
     "description": "Module that helps with logs cleaning.",
     "type": "library",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "LogCleaner\\": "src/"
@@ -9,7 +10,7 @@
     },
     "authors": [
         {
-            "name": "pawelturek",
+            "name": "Paweł Turek",
             "email": "pawelturek98@gmail.com"
         }
     ],
