@@ -1,12 +1,9 @@
 # Log Cleaner
 
----
-
 Simple solution, made for easy old logs cleanup.
 
 ## Installation
 
----
 Instalation is simple. Just get install composer dependency:
 ```
 $ composer require pawelt/logcleaner
