@@ -13,12 +13,13 @@ use LogCleaner\Strategy\DTO\FileCleanerStrategyDTO;
 use LogCleaner\Strategy\DTO\LogCleanerStrategyDTOInterface;
 use LogCleaner\Strategy\FileCleanerStrategy;
 use org\bovigo\vfs\vfsStream;
+use org\bovigo\vfs\vfsStreamDirectory;
 use PHPUnit\Framework\TestCase;
 
 class FileLogCleanerTest extends TestCase
 {
     private LogCleanerInterface $cleanerContext;
-    private mixed $vfsStreamRoot;
+    private vfsStreamDirectory $vfsStreamRoot;
     private string $filePath;
 
     public function setUp(): void
